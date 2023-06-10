@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import Layout from "../../components/layout"
 import Card from "../../components/card"
+import ProductDetail from "../../components/productDetail"
 
 
 function Home() {
@@ -22,8 +23,12 @@ function Home() {
           ))
         }
       </div>
+      <ProductDetail />
     </Layout>
   )
 }
 
 export default Home
+
+
+
