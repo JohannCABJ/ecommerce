@@ -14,7 +14,7 @@ const ProductDetail = () => {
       <div className='flex justify-between items-center p-6'>
         <h2 className='font-medium text-xl'>Detail</h2>
         <div>
-        <ChevronDoubleDownIcon className="h-6 w-6 text-blue-500"  onClick={() => context.closeProductDetail()}/>
+        <ChevronDoubleDownIcon className="h-6 w-6 text-blue-500 cursor-pointer"  onClick={() => context.closeProductDetail()}/>
         </div>
       </div>
       <figure className='px-6'>
